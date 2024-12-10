@@ -1,6 +1,6 @@
 import numpy as np
 
-# Input data: AND function
+# Input data: AND function 
 x = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
 y = np.array([0, 0, 0, 1])  # Target outputs for AND
 
