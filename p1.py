@@ -37,4 +37,4 @@ print("Final bias:", bias)
 for i in range(4):
     z = x[i][0] * w1 + x[i][1] * w2 + bias
     result = sigmoid(z)
-    print(f"Input: {x[i]}, Output: {1 if result >= 0.5 else 0}, Expected: {y[i]}")
+    print(f"Input: {x[i]}, Output: {result:.4f}, Expected: {y[i]}")
