@@ -1,3 +1,5 @@
+!pip install datasets
+
 from datasets import load_dataset
 import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
